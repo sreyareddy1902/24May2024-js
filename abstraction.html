@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        /*----using objects & methods
+        let circle={
+            radius:5,
+            area:function()
+            {
+                return Math.PI * this.radius * this.radius
+            }
+        }
+        console.log(circle.area())
+        ----*/
+
+        /*----using functions
+        function calculate()
+        {
+            this.add=function(a,b)
+            {
+                return a+b
+            }
+            this.sub=function(a,b)
+            {
+                return a-b
+            }
+        }
+
+        let c=new calculate()
+        console.log(c.add(3,4))
+        console.log(c.sub(7,2))
+        -----*/
+
+        /*---using private variable and closures
+        function counter()
+        {
+            let count=0
+            this.increment=function()
+            {
+                count++
+            }
+            this.getCount=function()
+            {
+                return count;
+            }
+        }
+
+        let c=new counter()
+        c.increment()
+        console.log(c.getCount())
+        -----*/
+
+        /*------using encapsulation
+        class Animal{
+            constructor(name,type)
+            {
+                this.name=name
+                this.type=type
+            }
+            getName()
+            {
+                return this.name
+            }
+            setType(type)
+            {
+                this.type=type
+            }
+        }
+        let dog=new Animal("buddy",'Dog')
+        console.log(dog.getName())
+        dog.setType('labrador')
+        console.log(dog.type)
+        ------*/
+
+
+    </script>
+</body>
+</html>
